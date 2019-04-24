@@ -1,0 +1,15 @@
+entity Student {
+	
+    matrikelnummer Long required,
+    nachnahme String required,
+    vorname String required,
+    strasse String required,
+    plz Integer required,
+    ort String required,
+}
+
+
+
+
+
+
