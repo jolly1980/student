@@ -62,4 +62,6 @@ export class StudentComponent implements OnInit, OnDestroy {
     protected onError(errorMessage: string) {
         this.jhiAlertService.error(errorMessage, null, null);
     }
+
+    date = new Date();
 }

@@ -27,7 +27,7 @@
             <tbody>
             <tr *ngFor="let student of students ;trackBy: trackId">
                 <td><a [routerLink]="['/student', student.id, 'view' ]">{{student.id}}</a></td>
-                <td>{{student.matrikelnummer}}</td>
+                <td>{{date| date:'yy'}}/30/{{student.id}}</td>
                 <td>{{student.nachnahme}}</td>
                 <td>{{student.vorname}}</td>
                 <td>{{student.strasse}}</td>
@@ -62,3 +62,10 @@
         </table>
     </div>
 </div>
+
+<script>
+
+    var d = new Date();
+    d.getFullYear();
+
+</script>
