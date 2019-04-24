@@ -1,0 +1,35 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.student"
+        },
+        "jhipsterVersion": "5.8.2",
+        "applicationType": "monolith",
+        "baseName": "student",
+        "packageName": "com.student",
+        "packageFolder": "com/student",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "h2Memory",
+        "prodDatabaseType": "mysql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "ZjJhY2E5YmZhZjg5MTI5YmUwZDUxMmExY2QzZGI2NDRhNzY1MDRmZmVjZDM1Y2MyZTNjM2YwNWE0YjJhOTZkYWM3NzQ5Y2YzNjc2Yzg5NzA3NDUzMTlmMmE3OTdkMDIzYTk3YWU5ZjkyN2Y3MzJkZjc5OWY5ZTAzMzRlMDlkMzI=",
+        "clientFramework": "angularX",
+        "useSass": false,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": false
+    }
+}
